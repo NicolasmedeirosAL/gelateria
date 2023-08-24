@@ -1,9 +1,43 @@
-import Header from "../../Components/Header"
+import Header from '../../Components/Header'
+import Footer from '../../Components/Footer'
+import './style.css'
 export default function Sobre() {
-  return(
+  return (
     <>
-    <Header/>
-    <p>Sobre</p>
+      <Header />
+      <main>
+        <section className="secao-banner-sobre-nos">
+          <div className="titulo-banner-sobre-nos">
+            <h1>A Gelateria</h1>
+          </div>
+        </section>
+
+        <section className="secao-sobre-nos limite-secao">
+          <h2>Sobre Nós</h2>
+          <span>Nós simplesmente amamos sorvete!</span>
+          <p>
+            Somos uma empresa apaixonada pelo que faz. Colocamos amor em cada
+            sorvete produzido. Fazemos o melhor sorvete para os nossos clientes
+            e gostamos de receber elogios. Estamos operando desde 2009 com as
+            melhores matérias-primas para a produção final do sorvete. Vendemos
+            tanto para varejo como para atacado.
+          </p>
+          <p>
+            Nossos clientes podem comprar os nossos sorvetes e degustar na nossa
+            loja ou levar para sua residência e aproveitar junto com a família.
+            Também vendemos para estabelecimentos e criamos eventos como festa
+            de aniversário, formaturas e eventos empresariais. Para contratar os
+            nossos serviços, basta entrar em contato conosco. Iremos
+            proporcionar o melhor atendimento e os melhores produtos para você
+            fazer a sua festa mais saborosa, com o melhor sorvete da cidade.
+          </p>
+        </section>
+        <section className="sobre-nos-container-imagens">
+          <img src="./assets/sobre-image.jpg" alt="pessoas brindando sorvete" />
+          <img src="./assets/sorveteria.jpg" alt="sorveteria" />
+        </section>
+      </main>
+      <Footer />
     </>
   )
 }

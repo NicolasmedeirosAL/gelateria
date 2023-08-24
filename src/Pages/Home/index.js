@@ -1,25 +1,25 @@
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
+import './style.css'
+
 export default function Home() {
   return (
     <>
       <Header />
 
       <main>
-        <section className="banner">
-          <div>
+        <section id='home' className="secao-banner-home ">
+          <div className="titulo-banner-home">
             <h1>Sorvete Artesanal</h1>
           </div>
         </section>
 
-        <section className="sabores-home">
-          <div className="home-imagens">
-            <img
-              src="./assets/banner-sabores.jpg"
-              alt="sorvetes diversos sabores"
-            />
-          </div>
-          <div className="home-textos">
+        <section className="secao-home-sabores">
+          <img
+            src="./assets/banner-sabores.jpg"
+            alt="sorvetes diversos sabores"
+          />
+          <div className="secao-home-textos">
             <h2>Nossos Sabores</h2>
             <span>Novos e deliciosos!</span>
             <p>
@@ -32,8 +32,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="home-eventos">
-          <div className="home-textos">
+        <section className="secao-home-eventos">
+          <div className="secao-home-textos">
             <h2>Nossos Eventos</h2>
             <span>Delicias com sorvete!</span>
             <p>
@@ -43,22 +43,20 @@ export default function Home() {
               aqui com a gente.
             </p>
           </div>
-          <div className="home-imagens">
-            <img
-              src="./assets/eventos-image.jpg"
-              alt="mesa com varios sorvetes e doces gelados"
-            />
-          </div>
+
+          <img
+            src="./assets/eventos-image.jpg"
+            alt="mesa com varios sorvetes e doces gelados"
+          />
         </section>
 
-        <section className="home-sobre">
-          <div className="home-imagens">
-            <img
-              src="./assets/sobre-image.jpg"
-              alt="varias pessoas brindando sorvetes"
-            />
-          </div>
-          <div className="home-textos">
+        <section className="secao-home-sobre">
+          <img
+            src="./assets/sobre-image.jpg"
+            alt="varias pessoas brindando sorvetes"
+          />
+
+          <div className="secao-home-textos">
             <h2>Sobre nós</h2>
             <span>Alegria em cada casquinha!</span>
             <p>

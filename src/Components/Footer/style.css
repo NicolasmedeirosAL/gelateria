@@ -1,0 +1,51 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.contatos {
+  padding: 30px 0;
+ text-align: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.contatos div {
+  margin: 15px 0;
+}
+
+
+.footer-logo {
+  width: 150px;
+}
+
+.contatos h3 {
+  margin: 20px 0;
+}
+.contatos p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.home-nocopy {
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media(max-width: 768px) {
+
+
+  .contatos {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 425px) {
+
+}

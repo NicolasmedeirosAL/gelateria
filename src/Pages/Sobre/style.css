@@ -1,0 +1,74 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-banner-sobre-nos {
+  width: 100%;
+  height: 80vh;
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('../../../public/assets/banner-sobre.png');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo-banner-sobre-nos {
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-banner-sobre-nos {
+  color: white;
+  font-size: 50px;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.secao-sobre-nos {
+  text-align: center;
+  padding: 30px 20px;
+}
+.secao-sobre-nos h2 {
+  font-size: 30px;
+}
+
+.secao-sobre-nos span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.secao-sobre-nos p {
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.sobre-nos-container-imagens {
+  width: calc(100% / 2);
+  display: flex;
+}
+
+.sobre-nos-container-imagens img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 758px) {
+  .secao-banner-sobre-nos h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .secao-banner-sobre-nos h1 {
+    font-size: 40px;
+  }
+}
