@@ -57,7 +57,7 @@ main {
 }
 
 .sobre-nos-container-imagens img {
-  width: 100%;
+  width: 50%;
   object-fit: cover;
 }
 
