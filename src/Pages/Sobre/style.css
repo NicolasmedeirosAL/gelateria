@@ -61,17 +61,16 @@ main {
   object-fit: cover;
 }
 
-
 @media screen and (max-width: 758px) {
   .secao-banner-sobre-nos h1 {
     font-size: 40px;
   }
   .sobre-nos-container-imagens {
-height: auto;
-}
+    height: auto;
+  }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
   .secao-banner-sobre-nos h1 {
     font-size: 40px;
   }
